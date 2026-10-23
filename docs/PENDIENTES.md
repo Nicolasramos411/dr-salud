@@ -1,6 +1,6 @@
 # Pendientes
 
-Lo que falta del cliente. Los marcados **BLOQUEA** impiden publicar el sitio.
+Lo que falta del cliente. Los marcados **BLOQUEA** impiden publicar el sitio (el cliente indicó que por ahora no son prioridad).
 
 ## Bloquea la publicación
 
@@ -11,8 +11,8 @@ Lo que falta del cliente. Los marcados **BLOQUEA** impiden publicar el sitio.
 
 - [ ] **Rangos de colaboradores del formulario.** Hoy hay tres opciones de ejemplo (`[Rango 1]`, `[Rango 2]`, `[Rango 3]`) en `src/content/leadform.ts` (`employeeRanges`). Deben sustituirse antes de publicar; se ven tal cual en el sitio.
 - [ ] **Dirección del consultorio.** La pregunta frecuente «¿Dónde atienden?» de Personas dice solo «En nuestro consultorio en Ciudad de México.»: se omitió el texto «[Confirmar dirección.]» de la referencia. Cuando se confirme, agrégala en `src/content/personas.ts`. Con la dirección y los horarios confirmados, también se pueden sumar a los datos estructurados (`src/lib/seo.ts`).
-- [ ] **Especialidad exacta del Dr. Luis Tiburcio.** Hoy dice «Médico cirujano general». Hay que confirmar si es título de Médico Cirujano (médico general) o especialidad en Cirugía General. Si es especialista, la ley pide mostrar también su certificado de especialidad.
-- [ ] **Respaldo de «Atención 24 horas»** (footer, `src/content/site.ts`). El manual la marca como afirmación que requiere sustento. Se mantiene porque está en la referencia.
+- [x] **Especialidad del Dr. Luis Tiburcio.** Confirmado: es médico general (Médico Cirujano), así que no hace falta mostrar certificado de especialidad.
+- [x] **«Atención 24 horas»** (footer). Confirmado por el cliente: se mantiene.
 - [ ] **Fotos definitivas y fotos del equipo** para los avatares: lista en [`IMAGENES.md`](./IMAGENES.md).
 
 ## Marca y técnico
