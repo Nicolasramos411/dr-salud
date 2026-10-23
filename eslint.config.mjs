@@ -22,7 +22,9 @@ export default defineConfig([
     'test-results/**',
     'next-env.d.ts',
     'scripts/**',
-    'gen-image.ts',
+    // Ad-hoc root-level scripts (image generation) are not part of the site.
+    '*.ts',
+    '!*.config.ts',
     'referencia/**',
     'marca/**',
     'assets/**',
