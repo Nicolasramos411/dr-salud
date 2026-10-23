@@ -20,6 +20,7 @@
   --font-serif: var(--font-tinos), 'Times New Roman', serif;
 
   --breakpoint-desk: 60rem;
+  --breakpoint-wide: 75rem;
 
   --text-eyebrow: 0.9375rem;
   --text-body: 1.125rem;
