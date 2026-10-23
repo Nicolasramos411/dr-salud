@@ -10,7 +10,10 @@ export const site = {
   serviceArea: 'Ciudad de México',
   phone: { display: '55 6875 8605', e164: '+525568758605' },
   whatsapp: { number: '525568758605' },
-  instagram: { handle: '@drsaludoficial', url: 'https://www.instagram.com/drsaludoficial/' },
+  instagram: {
+    handle: '@doctorsaludoficial',
+    url: 'https://www.instagram.com/doctorsaludoficial/',
+  },
   linkedin: { url: 'https://www.linkedin.com/company/dr-salud/' },
   availability: 'Atención 24 horas',
   copyright: '© 2026 Dr. Salud. Todos los derechos reservados.',
