@@ -32,6 +32,8 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   images: {
     formats: ['image/avif', 'image/webp'],
+    // 100 is used by the logo, which is a soft raster that suffers from extra compression.
+    qualities: [75, 100],
   },
   async headers() {
     return [{ source: '/:path*', headers: securityHeaders }];

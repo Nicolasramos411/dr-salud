@@ -19,7 +19,7 @@ export function Logo({ width = 176, className }: LogoProps) {
       width={w}
       height={Math.round(w * RATIO)}
       sizes={`${w}px`}
-      loading="eager"
+      quality={100}
       className={cn('block h-auto', className)}
       style={{ width: w }}
     />
