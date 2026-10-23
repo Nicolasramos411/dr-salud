@@ -1,0 +1,10 @@
+.next
+node_modules
+pnpm-lock.yaml
+referencia
+marca
+assets
+public
+docs/capturas
+playwright-report
+test-results

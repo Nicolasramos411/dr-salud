@@ -1,0 +1,134 @@
+@import 'tailwindcss';
+
+/* Brand tokens: the single source of truth for color, type and layout sizes. */
+@theme {
+  --color-navy: #000468;
+  --color-navy-hover: #1a1f80;
+  --color-turquoise: #0290b4;
+  --color-sky: #e1f5fc;
+  --color-sky-soft: #f4fafd;
+  --color-sky-hover: #cfeefa;
+  --color-gray: #423b4d;
+  --color-white: #ffffff;
+  --color-line: #dce8f0;
+  --color-line-header: #cfe6f0;
+  --color-line-strong: #9fb6c8;
+  --color-on-navy: #d5e4ef;
+  --color-error: #b3261e;
+
+  --font-sans: var(--font-arimo), Arial, Helvetica, sans-serif;
+  --font-serif: var(--font-tinos), 'Times New Roman', serif;
+
+  --breakpoint-desk: 60rem;
+
+  --text-eyebrow: 0.9375rem;
+  --text-body: 1.125rem;
+  --text-lead: 1.3125rem;
+  --text-h1: 3.75rem;
+  --text-h1--line-height: 1.05;
+  --text-h1-sm: 2.5rem;
+  --text-h1-sm--line-height: 1.08;
+  --text-h2: 2.625rem;
+  --text-h2--line-height: 1.1;
+  --text-h2-sm: 2rem;
+  --text-h2-sm--line-height: 1.12;
+  --text-h3: 1.25rem;
+  --text-h3--line-height: 1.3;
+  --text-stat: 2.5rem;
+
+  --radius-card: 1rem;
+  --radius-panel: 1.5rem;
+
+  --spacing-bar: 5rem;
+  --container-site: 75rem;
+  --container-narrow: 62.5rem;
+  --container-prose: 53.75rem;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+    background: var(--color-white);
+    scroll-padding-top: 1rem;
+    scroll-padding-bottom: var(--spacing-bar);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgb(2 144 180 / 0.2);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body {
+    margin: 0;
+    background: var(--color-white);
+    color: var(--color-navy);
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  a,
+  button,
+  summary,
+  label,
+  select,
+  input,
+  textarea {
+    touch-action: manipulation;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-turquoise);
+    outline-offset: 3px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* Official WhatsApp glyph (Meta brand resources), tinted with the surrounding text color. */
+  .wa-icon {
+    display: inline-block;
+    flex: none;
+    width: 1.2em;
+    height: 1.2em;
+    background-color: currentColor;
+    -webkit-mask: url('/icons/whatsapp-glyph.svg') center / contain no-repeat;
+    mask: url('/icons/whatsapp-glyph.svg') center / contain no-repeat;
+  }
+
+  /* FAQ: our own "+" instead of the browser triangle. */
+  details > summary {
+    list-style: none;
+  }
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+  details[open] > summary .faq-plus {
+    transform: rotate(45deg);
+  }
+}
