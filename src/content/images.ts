@@ -6,63 +6,63 @@ import type { SiteImage } from './types';
  */
 export const images = {
   inicioHero: {
-    src: null,
-    alt: 'Médica de Dr. Salud atendiendo a un colaborador en una sala de juntas',
+    src: '/images/inicio-hero.jpg',
+    alt: 'Médica de Dr. Salud explica resultados a un colaborador en una sala de juntas.',
     ratio: '4 / 3',
     direction:
       'Médica de Dr. Salud atendiendo a un colaborador en una sala de juntas real. Luz natural, uniforme de la marca.',
   },
   inicioPaso1: {
-    src: null,
-    alt: 'Toma de muestras a un colaborador en la oficina',
+    src: '/images/inicio-paso-1.jpg',
+    alt: 'Enfermera de Dr. Salud toma una muestra de sangre a una colaboradora en una oficina.',
     ratio: '4 / 3',
     direction: 'Toma de muestras en la oficina',
     label: 'FOTO: toma de muestras en la oficina',
   },
   inicioPaso2: {
-    src: null,
-    alt: 'Médico revisando los resultados de un colaborador',
+    src: '/images/inicio-paso-2.jpg',
+    alt: 'Médico de Dr. Salud revisa resultados de laboratorio en su laptop dentro de un consultorio luminoso.',
     ratio: '4 / 3',
     direction: 'Médico revisando resultados',
     label: 'FOTO: médico revisando resultados',
   },
   inicioPaso3: {
-    src: null,
-    alt: 'Colaborador en videollamada con su médica',
+    src: '/images/inicio-paso-3.jpg',
+    alt: 'Colaborador en su escritorio en una videollamada con una médica que le explica sus resultados.',
     ratio: '4 / 3',
     direction: 'Colaborador en videollamada con su médica',
     label: 'FOTO: colaborador en videollamada con su médica',
   },
   inicioPaso4: {
-    src: null,
-    alt: 'Llamada de seguimiento con un colaborador',
+    src: '/images/inicio-paso-4.jpg',
+    alt: 'Mujer habla por teléfono con calma en su departamento, recibiendo el seguimiento de su médico.',
     ratio: '4 / 3',
     direction: 'Llamada de seguimiento',
     label: 'FOTO: llamada de seguimiento',
   },
   empresasHero: {
-    src: null,
-    alt: 'Jornada de salud en una oficina de la Ciudad de México',
+    src: '/images/empresas-hero.jpg',
+    alt: 'Jornada de salud en una oficina: una enfermera toma una muestra mientras otros colaboradores esperan su turno.',
     ratio: '4 / 3',
     direction:
       'Jornada de salud en una oficina de CDMX: colaboradores en toma de muestras con personal de Dr. Salud.',
   },
   personasHero: {
-    src: null,
-    alt: 'Médico explicando resultados a un paciente en consultorio',
+    src: '/images/personas-hero.jpg',
+    alt: 'Médica explica resultados con un gesto abierto a un paciente en un consultorio pequeño y luminoso.',
     ratio: '4 / 3',
     direction:
       'Médico explicando resultados a un paciente en consultorio, con calma y contacto visual.',
   },
   personasInterpretacion: {
-    src: null,
-    alt: 'Paciente revisando sus resultados impresos con su médica',
+    src: '/images/personas-interpretacion.jpg',
+    alt: 'Médica y paciente revisan juntas unos resultados impresos en el sofá de un departamento en la Roma.',
     ratio: '4 / 3',
     direction: 'Paciente revisando sus resultados impresos con su médica, ambos sonriendo.',
   },
   comoFuncionaVideollamada: {
-    src: null,
-    alt: 'Colaborador en videollamada con su médica desde su escritorio',
+    src: '/images/como-funciona-videollamada.jpg',
+    alt: 'Colaboradora en su escritorio hace una pregunta a su médico durante una videollamada.',
     ratio: '4 / 3',
     direction:
       'Colaborador en videollamada con su médica desde su escritorio, con sus resultados a la mano.',
@@ -88,10 +88,10 @@ export const images = {
   },
 } satisfies Record<string, SiteImage>;
 
-/** The four circular avatars of the team panel. Generic until real team photos exist. */
+/** The four circular avatars of the team panel (decorative, so alt is empty). AI-generated and illustrative; replace with real team photos. */
 export const teamAvatars: { src: string | null; alt: string }[] = [
-  { src: null, alt: '' },
-  { src: null, alt: '' },
-  { src: null, alt: '' },
-  { src: null, alt: '' },
+  { src: '/team/equipo-1.jpg', alt: '' },
+  { src: '/team/equipo-2.jpg', alt: '' },
+  { src: '/team/equipo-3.jpg', alt: '' },
+  { src: '/team/equipo-4.jpg', alt: '' },
 ];

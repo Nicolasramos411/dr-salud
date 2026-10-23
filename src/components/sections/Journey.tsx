@@ -25,7 +25,7 @@ export function Journey({ id, intro, steps }: Props) {
               <Photo
                 image={step.image}
                 compact
-                sizes="(min-width: 960px) 25vw, (min-width: 640px) 50vw, 100vw"
+                sizes="(min-width: 960px) 280px, (min-width: 640px) 50vw, 100vw"
                 className="!rounded-[0.875rem]"
               />
               <div className="flex flex-col gap-2 px-3">

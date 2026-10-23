@@ -17,7 +17,7 @@ type PhotoProps = {
 export function Photo({
   image,
   priority,
-  sizes = '(min-width: 960px) 560px, 100vw',
+  sizes = '(min-width: 1200px) 560px, (min-width: 960px) 46vw, 100vw',
   compact,
   className,
   imageClassName,
