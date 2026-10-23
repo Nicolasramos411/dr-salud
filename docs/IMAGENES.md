@@ -26,7 +26,7 @@ El script redimensiona (fotos 4:3 a 2000 × 1500, avatares 1:1 a 800 × 800), co
 
 ## Pendientes
 
-Solo faltan las dos fotos que deben ser **reales** (equipo y fundadores).
+Las dos fotos de Nosotros están cubiertas por ahora con imágenes ilustrativas reutilizadas (las variantes `-b` sin usar de la jornada de Empresas y de la toma de muestras de Inicio). Deben sustituirse por fotos **reales** del equipo y de los fundadores; el archivo y la ruta son los mismos, solo hay que reemplazarlos y ajustar el `alt`.
 
 | Página   | Sección          | Archivo esperado                      | Proporción | Tamaño mínimo | Texto alternativo (provisional)                                         | Descripción                                                                                             |
 | -------- | ---------------- | ------------------------------------- | ---------- | ------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |

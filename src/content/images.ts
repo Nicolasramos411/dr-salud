@@ -68,15 +68,15 @@ export const images = {
       'Colaborador en videollamada con su médica desde su escritorio, con sus resultados a la mano.',
   },
   nosotrosHero: {
-    src: null,
-    alt: 'Retrato grupal del equipo médico de Dr. Salud',
+    src: '/images/nosotros-hero.jpg',
+    alt: 'Personal médico con uniforme y colaboradores durante una jornada de salud en una oficina.',
     ratio: '4 / 3',
     direction:
       'Retrato grupal del equipo médico de Dr. Salud, con uniforme de la marca, en un espacio de trabajo real.',
   },
   nosotrosHistoria: {
-    src: null,
-    alt: 'Fundadores y equipo en una de las primeras jornadas de salud en empresa',
+    src: '/images/nosotros-historia.jpg',
+    alt: 'Enfermera toma una muestra a un colaborador durante una jornada de salud en una oficina.',
     ratio: '4 / 3',
     direction: 'Fundadores o equipo en una de las primeras jornadas de salud en empresa.',
   },

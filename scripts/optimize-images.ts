@@ -52,6 +52,14 @@ const jobs: Job[] = [
     kind: 'photo',
     variant: 'a',
   },
+  // Nosotros reuses the unused -b variants of two existing scenes until real team photos exist.
+  { source: 'empresas-hero-jornada', out: 'images/nosotros-hero', kind: 'photo', variant: 'b' },
+  {
+    source: 'inicio-paso-1-toma-de-muestras',
+    out: 'images/nosotros-historia',
+    kind: 'photo',
+    variant: 'b',
+  },
   { source: 'equipo-avatar-1-enfermeria', out: 'team/equipo-1', kind: 'avatar', variant: 'a' },
   { source: 'equipo-avatar-2-nutricion', out: 'team/equipo-2', kind: 'avatar', variant: 'a' },
   { source: 'equipo-avatar-3-vacunacion', out: 'team/equipo-3', kind: 'avatar', variant: 'a' },
