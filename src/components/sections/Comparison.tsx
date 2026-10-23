@@ -12,7 +12,12 @@ export function Comparison({ content }: Props) {
         <Heading id="comparison-title" className="text-center">
           {content.title}
         </Heading>
-        <div className="overflow-x-auto">
+        <div
+          role="region"
+          aria-labelledby="comparison-title"
+          tabIndex={0}
+          className="overflow-x-auto"
+        >
           <table className="w-full min-w-[35rem] border-collapse text-[1.0625rem]">
             <thead>
               <tr>
