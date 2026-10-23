@@ -1,6 +1,9 @@
 import { z } from 'zod';
 import { leadForm } from '@/content/leadform';
 
+// Zod's JIT compiles validators with new Function(), which a strict CSP (no 'unsafe-eval') reports as a violation.
+z.config({ jitless: true });
+
 const m = leadForm.validation;
 const rangeValues: string[] = leadForm.employeeRanges.map((r) => r.value);
 

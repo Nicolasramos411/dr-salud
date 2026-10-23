@@ -5,7 +5,7 @@ type Block = { label: string; text: string };
 
 export function MissionVision({ mission, vision }: { mission: Block; vision: Block }) {
   return (
-    <Section tone="sky" padding="py-14 desk:py-20">
+    <Section id="vision" tone="sky" padding="py-14 desk:py-20">
       <div className="grid gap-10 desk:grid-cols-2 desk:gap-16">
         {[mission, vision].map((block) => (
           <div key={block.label} className="flex flex-col gap-4">
