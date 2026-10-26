@@ -7,7 +7,7 @@ type LogoProps = {
   className?: string;
 };
 
-const RATIO = 496 / 1132;
+const RATIO = 906 / 2085;
 
 /** Dr. Salud logo: used as is, on white, with no effects. */
 export function Logo({ width = 176, className }: LogoProps) {

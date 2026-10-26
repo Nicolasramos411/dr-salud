@@ -24,7 +24,7 @@ export default async function OpenGraphImage() {
         gap: 32,
       }}
     >
-      <img src={src} alt="" width={566} height={248} />
+      <img src={src} alt="" width={566} height={246} />
       <div style={{ width: 96, height: 6, background: '#0290B4' }} />
       <div style={{ fontSize: 44, color: '#000468', fontWeight: 700 }}>{site.slogan}</div>
     </div>,
