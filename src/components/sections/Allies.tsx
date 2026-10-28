@@ -10,9 +10,6 @@ export function Allies({ items }: { items: typeof nosotros.allies.items }) {
       {items.map((item) => (
         <Card key={item.title} as="li" tone="sky" className="gap-4">
           <PartnerLogo partner={item.partner} blend className="h-10 self-start" />
-          <h3 className="m-0 text-h3 font-bold">
-            <Brand>{item.title}</Brand>
-          </h3>
           <p className="m-0 text-base text-gray">
             <Brand>{item.text}</Brand>
           </p>
