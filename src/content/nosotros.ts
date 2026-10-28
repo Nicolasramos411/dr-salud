@@ -20,7 +20,7 @@ export const nosotros = {
       title: '¿Por qué existe Dr. Salud?',
     } satisfies SectionIntro,
     paragraphs: [
-      'Llevamos la prevención a donde estás. Dr. Salud nace de un grupo con más de 5 años en el sector salud y experiencia certificando la salud de conductores profesionales.',
+      'Llevamos la prevención a donde estás. Dr. Salud nace de un grupo con más de 5 años en el sector salud y experiencia certificando la salud de grandes equipos.',
       'Cuidamos a empresas, escuelas y personas que quieren dejar de reaccionar ante la enfermedad y empezar a prevenirla.',
     ],
     image: images.nosotrosHistoria,
